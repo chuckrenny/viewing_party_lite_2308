@@ -6,8 +6,22 @@
   <%= button_to "Discover Movies", discover_user_path(@user), method: :get, data: {turbo: false}, class: "button" %>
 </div>
 <br>
-<hr>
-<br>
 <section id="viewing_parties">
-  
+  <% @user.viewing_parties.each do |party| %>
+    <% movie = Movie.new(party.movie.attributes) %>  
+    <p><%= movie.title %> 
+    <p><%= party.time %></p>
+    <p>Host: <%= User.new(party.host_id.attributes).name %></p>  <!-- Adjust if needed -->
+    <ul>
+    <p>Guests</p>
+    <% party.guests.each do |guest| %>
+      <% if guest.name == @user.name %>
+        <li><strong><%= guest.name %></strong></li>
+      <% else %>
+        <li><%= guest.name %></li>
+      <% end %>
+    <% end %>
+    </ul>
+    <hr>
+  <% end %>
 </section>

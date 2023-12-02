@@ -58,3 +58,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_27_230600) do
   add_foreign_key "party_users", "viewing_parties"
   add_foreign_key "viewing_parties", "movies"
 end
+
