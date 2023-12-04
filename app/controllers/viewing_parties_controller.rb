@@ -6,7 +6,6 @@ class ViewingPartiesController < ApplicationController
   end
 
   def create
-    # require 'pry'; binding.pry
     # find the movie in AR or create and add it
     mov = Movie.find_or_create_by(id: params[:movie_id]) do |model|
       # convert poro::movie to ar::movie
