@@ -12,6 +12,7 @@ RSpec.describe "Register Page", type: :feature do
         fill_in "Name", with: "Kyo"
         fill_in "Email", with: "kyo@gmail.com"
         fill_in "Password", with: "test"
+        fill_in "Confirm Password", with: "test"
 
         click_on "Register"
 
@@ -30,6 +31,7 @@ RSpec.describe "Register Page", type: :feature do
         fill_in "Name", with: ""
         fill_in "Email", with: "kyo@gmail.com"
         fill_in "Password", with: "test"
+        fill_in "Confirm Password", with: "test"
         click_on "Register"
 
         expect(page).to have_content("Name can't be blank")
@@ -43,6 +45,7 @@ RSpec.describe "Register Page", type: :feature do
         fill_in "Name", with: "kyo"
         fill_in "Email", with: ""
         fill_in "Password", with: "test"
+        fill_in "Confirm Password", with: "test"
         click_on "Register"
 
         expect(page).to have_content("Email can't be blank")
@@ -69,6 +72,7 @@ RSpec.describe "Register Page", type: :feature do
         fill_in "Name", with: "Kyo"
         fill_in "Email", with: "kyo@gmail.com"
         fill_in "Password", with: "test"
+        fill_in "Confirm Password", with: "test"
 
         click_on "Register"
 

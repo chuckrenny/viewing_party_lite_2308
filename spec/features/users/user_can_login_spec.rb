@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "Logging In" do
   it "can log in with valid credentials" do
-    user = User.create(username: "funbucket13", password: "test")
+    user = create :user
 
     visit root_path
 
