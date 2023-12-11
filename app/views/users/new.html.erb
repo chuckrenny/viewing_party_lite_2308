@@ -2,8 +2,8 @@
 
 <h2>Register New User</h2>
 <br>
-<%= form_with model: User.new, data: { turbo: false } do |form| %>
-  <%= form.label :name %><br>
+<%= form_with model: User.new do |form| %>
+  <%= form.label :name, "Name" %><br>
   <%= form.text_field :name %><br>
   <%= form.label :email %><br>
   <%= form.text_field :email %><br>
