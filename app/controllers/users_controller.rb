@@ -19,9 +19,24 @@ class UsersController < ApplicationController
     @parties = @user.viewing_parties
   end
 
+  def login_form
+  end
+
+  def login
+    user = User.find_by(username: params[:username])
+    if user.authenticate(params[:password])
+      session[:user_id] = user.id
+      flash[:success] = "Welcome, #{user.username}!"
+      redirect_to root_path
+    else
+      flash[:error] = "Sorry, your credentials are bad."
+      render :login_form
+    end
+  end
+
   private
 
   def user_params
-    params.require(:user).permit(:name, :email)
+    params.require(:user).permit(:name, :email, :password)
   end
 end

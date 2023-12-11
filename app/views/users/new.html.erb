@@ -1,6 +1,5 @@
 <%= render partial: "shared/nav" %>
 
-
 <h2>Register New User</h2>
 <br>
 <%= form_with model: User.new, data: { turbo: false } do |form| %>
@@ -8,6 +7,7 @@
   <%= form.text_field :name %><br>
   <%= form.label :email %><br>
   <%= form.text_field :email %><br>
+  <%= form.text_field :password %>
 <div class="submit-button-container">
   <%= form.button "Register", class: "button" %>
 </div>
