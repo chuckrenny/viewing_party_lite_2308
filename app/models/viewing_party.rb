@@ -10,9 +10,9 @@ class ViewingParty < ApplicationRecord
 
   def user_status(id)
     if id == host_id
-      return "Hosting"
+      "Hosting"
     else
-      return "Invited"
+      "Invited"
     end
   end
 
@@ -26,7 +26,7 @@ class ViewingParty < ApplicationRecord
     # Call your API service to retrieve the poster
     TMDBService.get_poster(movie.poster_path)
 
-    self.movie.poster.attach(
+    movie.poster.attach(
       io: File.open("app/assets/images" + movie.poster_path),
       filename: movie.poster_path.delete("/"),
       content_type: "image/jpeg"

@@ -80,7 +80,6 @@ RSpec.describe TMDBService do
 
     describe "::get_poster" do
       it "gets the media at a poster path", :vcr do
-
         poster_path = "/v0PI2XUPrse8pNhu2MWlul6u1S7.jpg"
         media_status = TMDBService.get_poster(poster_path)
 

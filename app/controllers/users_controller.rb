@@ -6,6 +6,7 @@ class UsersController < ApplicationController
     user = User.new(user_params)
 
     if user.save
+      session[:user_id] = user.id
       redirect_to user_path(user), notice: "User created successfully"
     else
       flash.now[:alert] = user.errors.full_messages.join(", ")
@@ -32,6 +33,12 @@ class UsersController < ApplicationController
       flash[:error] = "Sorry, your credentials are bad."
       render :login_form
     end
+  end
+
+  def logout
+    session.delete(:user_id)
+    flash[:success] = "You've been logged out!"
+    redirect_to root_path
   end
 
   private
