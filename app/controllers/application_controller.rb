@@ -4,5 +4,8 @@ class ApplicationController < ActionController::Base
 
   def current_user
     @_current_user ||= User.find(session[:user_id]) if session[:user_id]
+  rescue
+    session.clear
+    @_current_user = nil
   end
 end
