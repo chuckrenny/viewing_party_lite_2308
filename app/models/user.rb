@@ -11,6 +11,7 @@ class User < ApplicationRecord
   has_many :party_users
   has_many :viewing_parties, through: :party_users
 
+  enum role: %w[default admin]
   # @return all OTHER users in the database
   def friends
     User.where.not(id: id)

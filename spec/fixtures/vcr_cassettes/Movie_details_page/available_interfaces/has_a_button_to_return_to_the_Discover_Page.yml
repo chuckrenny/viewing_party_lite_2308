@@ -27,71 +27,6 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Mon, 11 Dec 2023 21:38:51 GMT
-      Server:
-      - openresty
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 21c472d649479995e58c7324472ca60d
-      X-Memc-Age:
-      - '4536'
-      X-Memc-Expires:
-      - '20765'
-      Etag:
-      - W/"bfed03dae2894ae8fd4671f0e0a3a75c"
-      Vary:
-      - Accept-Encoding
-      - Origin
-      X-Cache:
-      - Miss from cloudfront
-      Via:
-      - 1.1 be7f6ce4397843276657a8babac08b6e.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-C1
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - nnxtXhl8pUYVpfL403dfRGqaW2ZLVWFf5y3Tnb-Z6RFcU3-oJZ45lA==
-    body:
-      encoding: ASCII-8BIT
-      string: '{"adult":false,"backdrop_path":"/wvBuXgA77FaCVKy2iejr4wuxa8G.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":99,"name":"Documentary"}],"homepage":"","id":330068,"imdb_id":"tt5434972","original_language":"en","original_title":"Fastball","overview":"Since
-        1912, baseball has been a game obsessed with statistics and speed. Thrown
-        at upwards of 100 miles per hour, a fastball moves too quickly for human cognition
-        and accelerates into the realm of intuition. Fastball is a look at how the
-        game at its highest levels of achievement transcends logic and even skill,
-        becoming the primal struggle for man to control the uncontrollable.","popularity":5.205,"poster_path":"/v0PI2XUPrse8pNhu2MWlul6u1S7.jpg","production_companies":[{"id":923,"logo_path":"/8M99Dkt23MjQMTTWukq4m5XsEuo.png","name":"Legendary
-        Pictures","origin_country":"US"},{"id":62472,"logo_path":null,"name":"Hock
-        Films","origin_country":""}],"production_countries":[{"iso_3166_1":"US","name":"United
-        States of America"}],"release_date":"2016-03-25","revenue":0,"runtime":87,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Fastball","video":false,"vote_average":7.2,"vote_count":43}'
-  recorded_at: Mon, 11 Dec 2023 21:38:51 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/330068
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Authorization:
-      - Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjJkMDg0ZTBiMjJlNGNhZTZiYTUwNTA4YzU2MmUwNyIsInN1YiI6IjY1NjRkZWNlZDk1NTRiMDEzYWYyZjIwMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.F15rqbrDY3vz4g1F9BHHdPGdyOjkGfBpjuf4w5E-dSY
-      User-Agent:
-      - Faraday v2.7.12
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
       - Tue, 12 Dec 2023 18:37:21 GMT
       Server:
       - openresty
@@ -131,168 +66,6 @@ http_interactions:
         Pictures","origin_country":"US"},{"id":62472,"logo_path":null,"name":"Hock
         Films","origin_country":""}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2016-03-25","revenue":0,"runtime":87,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Fastball","video":false,"vote_average":7.2,"vote_count":43}'
-  recorded_at: Tue, 12 Dec 2023 18:37:21 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/330068/credits
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Authorization:
-      - Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjJkMDg0ZTBiMjJlNGNhZTZiYTUwNTA4YzU2MmUwNyIsInN1YiI6IjY1NjRkZWNlZDk1NTRiMDEzYWYyZjIwMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.F15rqbrDY3vz4g1F9BHHdPGdyOjkGfBpjuf4w5E-dSY
-      User-Agent:
-      - Faraday v2.7.12
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Tue, 12 Dec 2023 18:37:21 GMT
-      Server:
-      - openresty
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - ebd33e307e5b175fa745f70cea089920
-      X-Memc-Age:
-      - '6064'
-      X-Memc-Expires:
-      - '16886'
-      Etag:
-      - W/"b4fa927f2a6ab82f7d0f7b70945184c1"
-      Vary:
-      - Accept-Encoding
-      - Origin
-      X-Cache:
-      - Miss from cloudfront
-      Via:
-      - 1.1 bcab77f1ffe9d73bbe5ff7a973cd0160.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-C1
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - QXbVybwZSWs8ofwdaWfFpHbobejmqErU65neX5ZKHvWb2y2_oNjE1w==
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":330068,"cast":[{"adult":false,"gender":2,"id":1269,"known_for_department":"Acting","name":"Kevin
-        Costner","original_name":"Kevin Costner","popularity":67.042,"profile_path":"/608blZipRDZkDpzp8VItB64qMaT.jpg","cast_id":1,"character":"Narrator","credit_id":"56c61a0ec3a3680d41003800","order":0},{"adult":false,"gender":2,"id":1219050,"known_for_department":"Acting","name":"Hank
-        Aaron","original_name":"Hank Aaron","popularity":2.071,"profile_path":"/nxwkA89oLA3N6SvvMUwUFGVCZY0.jpg","cast_id":2,"character":"Self
-        (archive footage)","credit_id":"56f5d18dc3a3686a5e000d07","order":1},{"adult":false,"gender":2,"id":1596331,"known_for_department":"Acting","name":"Nolan
-        Ryan","original_name":"Nolan Ryan","popularity":0.6,"profile_path":null,"cast_id":3,"character":"Self
-        (archive footage)","credit_id":"56f5d19e92514125d6000421","order":2},{"adult":false,"gender":2,"id":147445,"known_for_department":"Acting","name":"Derek
-        Jeter","original_name":"Derek Jeter","popularity":1.4,"profile_path":"/zPuiq4sz76ZfTcCUq2pJ7tcagJ3.jpg","cast_id":4,"character":"Self","credit_id":"56f5d1abc3a3686a59000c70","order":3},{"adult":false,"gender":0,"id":1653850,"known_for_department":"Acting","name":"Denard
-        Span","original_name":"Denard Span","popularity":0.6,"profile_path":null,"cast_id":9,"character":"Self","credit_id":"57906239c3a368671a006683","order":4},{"adult":false,"gender":0,"id":1653851,"known_for_department":"Acting","name":"Craig
-        Kimbrel","original_name":"Craig Kimbrel","popularity":0.6,"profile_path":null,"cast_id":10,"character":"Self
-        (archive footage)","credit_id":"579062489251410c06003939","order":5},{"adult":false,"gender":0,"id":1653852,"known_for_department":"Acting","name":"Justin
-        Verlander","original_name":"Justin Verlander","popularity":0.993,"profile_path":null,"cast_id":11,"character":"Self
-        (archive footage)","credit_id":"5790625dc3a3685b260081e5","order":6},{"adult":false,"gender":0,"id":4026202,"known_for_department":"Acting","name":"Bryce
-        Harper","original_name":"Bryce Harper","popularity":0.6,"profile_path":null,"cast_id":30,"character":"Self
-        (archive footage)","credit_id":"64466f66c8f3c404c94513ab","order":7},{"adult":false,"gender":2,"id":2955,"known_for_department":"Acting","name":"Chris
-        Cooper","original_name":"Chris Cooper","popularity":15.705,"profile_path":"/j0sQDzaDlnNAdaYhy6HRRAFi22.jpg","cast_id":13,"character":"Clifford
-        Blankenship (voice)","credit_id":"579062889251414b03001ef6","order":8},{"adult":false,"gender":2,"id":1315816,"known_for_department":"Acting","name":"George
-        Brett","original_name":"George Brett","popularity":1.38,"profile_path":null,"cast_id":14,"character":"Self
-        (archive footage)","credit_id":"579062a29251411cd8006200","order":9},{"adult":false,"gender":0,"id":1214284,"known_for_department":"Acting","name":"Joe
-        Morgan","original_name":"Joe Morgan","popularity":0.6,"profile_path":null,"cast_id":15,"character":"Self
-        (archive footage)","credit_id":"579062afc3a3684e95001cf4","order":10},{"adult":false,"gender":0,"id":1243289,"known_for_department":"Acting","name":"Johnny
-        Bench","original_name":"Johnny Bench","popularity":0.98,"profile_path":null,"cast_id":16,"character":"Self
-        (archive footage)","credit_id":"579062bbc3a3684e95001d00","order":11},{"adult":false,"gender":0,"id":1653854,"known_for_department":"Acting","name":"Tony
-        Gwynn","original_name":"Tony Gwynn","popularity":0.6,"profile_path":"/vHj7FONWGXQpToMY9p15ZImWoXc.jpg","cast_id":17,"character":"Self
-        (archive footage)","credit_id":"579062ca9251410c0600397e","order":12},{"adult":false,"gender":0,"id":590335,"known_for_department":"Acting","name":"Ernie
-        Banks","original_name":"Ernie Banks","popularity":0.6,"profile_path":null,"cast_id":18,"character":"Self
-        (archive footage)","credit_id":"579062d9c3a3684a8c0022f8","order":13},{"adult":false,"gender":0,"id":1653855,"known_for_department":"Acting","name":"Rich
-        Gossage","original_name":"Rich Gossage","popularity":0.6,"profile_path":null,"cast_id":19,"character":"Self
-        (archive footage)","credit_id":"5790630f9251411cd800622d","order":14},{"adult":false,"gender":0,"id":1573622,"known_for_department":"Acting","name":"Mike
-        Schmidt","original_name":"Mike Schmidt","popularity":0.6,"profile_path":null,"cast_id":20,"character":"Self
-        (archive footage)","credit_id":"5790631dc3a3684a130024b0","order":15},{"adult":false,"gender":0,"id":1653856,"known_for_department":"Acting","name":"Arnoldis
-        Chapman","original_name":"Arnoldis Chapman","popularity":0.6,"profile_path":null,"cast_id":21,"character":"Self
-        (archive footage)","credit_id":"5790632b9251414aef001f83","order":16},{"adult":false,"gender":0,"id":1249562,"known_for_department":"Acting","name":"Al
-        Kaline","original_name":"Al Kaline","popularity":0.6,"profile_path":null,"cast_id":22,"character":"Self
-        (archive footage)","credit_id":"57906377c3a3684a8c00233d","order":17},{"adult":false,"gender":0,"id":1653857,"known_for_department":"Acting","name":"David
-        Price","original_name":"David Price","popularity":0.6,"profile_path":null,"cast_id":23,"character":"Self
-        (archive footage)","credit_id":"579063bbc3a3684a13002502","order":18},{"adult":false,"gender":0,"id":1249462,"known_for_department":"Acting","name":"Bob
-        Gibson","original_name":"Bob Gibson","popularity":0.98,"profile_path":null,"cast_id":24,"character":"Self
-        (archive footage)","credit_id":"579063c79251411cd800627a","order":19}],"crew":[{"adult":false,"gender":2,"id":53178,"known_for_department":"Directing","name":"Michael
-        Tollin","original_name":"Michael Tollin","popularity":4.101,"profile_path":"/zZEUZh2Oh20wFBXaEfGvwqCBWmv.jpg","credit_id":"628e54d9ed2ac2758dfe1e73","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":54211,"known_for_department":"Production","name":"Thomas
-        Tull","original_name":"Thomas Tull","popularity":1.62,"profile_path":"/5UG4FK7rsmhzJDYxpU28acqfxtu.jpg","credit_id":"56f5d1c092514155f5000c01","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":92936,"known_for_department":"Directing","name":"Jonathan
-        Hock","original_name":"Jonathan Hock","popularity":1.444,"profile_path":"/1qzxg46cetSmRGqL6unAt9f20Ia.jpg","credit_id":"56f5d209925141560a000c11","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":92936,"known_for_department":"Directing","name":"Jonathan
-        Hock","original_name":"Jonathan Hock","popularity":1.444,"profile_path":"/1qzxg46cetSmRGqL6unAt9f20Ia.jpg","credit_id":"550099679251413da8001d06","department":"Directing","job":"Director"},{"adult":false,"gender":0,"id":1106729,"known_for_department":"Editing","name":"Steven
-        Pilgrim","original_name":"Steven Pilgrim","popularity":0.6,"profile_path":null,"credit_id":"6147d1d91689350064edc7ff","department":"Editing","job":"Editor"},{"adult":false,"gender":2,"id":1130319,"known_for_department":"Sound","name":"Tony
-        Morales","original_name":"Tony Morales","popularity":1.544,"profile_path":null,"credit_id":"6147d1cb168935008f0c975a","department":"Sound","job":"Original
-        Music Composer"},{"adult":false,"gender":0,"id":1596332,"known_for_department":"Production","name":"Philip
-        Aromando","original_name":"Philip Aromando","popularity":0.716,"profile_path":null,"credit_id":"56f5d1e5c3a3686a6b000c77","department":"Production","job":"Producer"},{"adult":false,"gender":0,"id":2166956,"known_for_department":"Editing","name":"Pete
-        Panagoulias","original_name":"Pete Panagoulias","popularity":0.6,"profile_path":null,"credit_id":"6147d1d2e55937006179a7a8","department":"Editing","job":"Editor"},{"adult":false,"gender":0,"id":2194380,"known_for_department":"Production","name":"David
-        Check","original_name":"David Check","popularity":0.6,"profile_path":null,"credit_id":"628e54c47d5db510a6558743","department":"Production","job":"Co-Executive
-        Producer"}]}'
-  recorded_at: Tue, 12 Dec 2023 18:37:21 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/330068/reviews
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Authorization:
-      - Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjJkMDg0ZTBiMjJlNGNhZTZiYTUwNTA4YzU2MmUwNyIsInN1YiI6IjY1NjRkZWNlZDk1NTRiMDEzYWYyZjIwMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.F15rqbrDY3vz4g1F9BHHdPGdyOjkGfBpjuf4w5E-dSY
-      User-Agent:
-      - Faraday v2.7.12
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Server:
-      - openresty
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 138e048d065a91f26eabdfab789f742c
-      X-Memc-Age:
-      - '10471'
-      X-Memc-Expires:
-      - '18208'
-      Date:
-      - Tue, 12 Dec 2023 18:37:21 GMT
-      Etag:
-      - W/"3b796a67694707f2c12cacf3ce981616"
-      Vary:
-      - Accept-Encoding
-      - Origin
-      X-Cache:
-      - RefreshHit from cloudfront
-      Via:
-      - 1.1 20ebec22e4be2753f048f31dfe94e426.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-C1
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - ybavz8IQrPVaZXWAiM792_bfApmuik5A4JI_thj1rCAImAWIYb4BDg==
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":330068,"page":1,"results":[],"total_pages":0,"total_results":0}'
   recorded_at: Tue, 12 Dec 2023 18:37:21 GMT
 - request:
     method: get
@@ -521,4 +294,241 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"id":330068,"page":1,"results":[],"total_pages":0,"total_results":0}'
   recorded_at: Tue, 12 Dec 2023 18:42:38 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/330068
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjJkMDg0ZTBiMjJlNGNhZTZiYTUwNTA4YzU2MmUwNyIsInN1YiI6IjY1NjRkZWNlZDk1NTRiMDEzYWYyZjIwMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.F15rqbrDY3vz4g1F9BHHdPGdyOjkGfBpjuf4w5E-dSY
+      User-Agent:
+      - Faraday v2.7.12
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 12 Dec 2023 18:37:21 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=26717
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 21c472d649479995e58c7324472ca60d
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '26717'
+      Etag:
+      - W/"ef90b6fc083f285d2f34090ebe5d2e8b"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 20ebec22e4be2753f048f31dfe94e426.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-C1
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 0rEm1C6MBLBpgiwW3asE9Pv9b4xtzBPN90QyEJZ5tw0n7EPRf2VOIA==
+      Age:
+      - '15924'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"adult":false,"backdrop_path":"/wvBuXgA77FaCVKy2iejr4wuxa8G.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":99,"name":"Documentary"}],"homepage":"","id":330068,"imdb_id":"tt5434972","original_language":"en","original_title":"Fastball","overview":"Since
+        1912, baseball has been a game obsessed with statistics and speed. Thrown
+        at upwards of 100 miles per hour, a fastball moves too quickly for human cognition
+        and accelerates into the realm of intuition. Fastball is a look at how the
+        game at its highest levels of achievement transcends logic and even skill,
+        becoming the primal struggle for man to control the uncontrollable.","popularity":7.287,"poster_path":"/v0PI2XUPrse8pNhu2MWlul6u1S7.jpg","production_companies":[{"id":923,"logo_path":"/8M99Dkt23MjQMTTWukq4m5XsEuo.png","name":"Legendary
+        Pictures","origin_country":"US"},{"id":62472,"logo_path":null,"name":"Hock
+        Films","origin_country":""}],"production_countries":[{"iso_3166_1":"US","name":"United
+        States of America"}],"release_date":"2016-03-25","revenue":0,"runtime":87,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Fastball","video":false,"vote_average":7.2,"vote_count":43}'
+  recorded_at: Tue, 12 Dec 2023 23:02:45 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/330068/credits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjJkMDg0ZTBiMjJlNGNhZTZiYTUwNTA4YzU2MmUwNyIsInN1YiI6IjY1NjRkZWNlZDk1NTRiMDEzYWYyZjIwMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.F15rqbrDY3vz4g1F9BHHdPGdyOjkGfBpjuf4w5E-dSY
+      User-Agent:
+      - Faraday v2.7.12
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - ebd33e307e5b175fa745f70cea089920
+      X-Memc-Age:
+      - '6426'
+      X-Memc-Expires:
+      - '16524'
+      Date:
+      - Tue, 12 Dec 2023 23:02:45 GMT
+      Cache-Control:
+      - public, max-age=599
+      Etag:
+      - W/"b4fa927f2a6ab82f7d0f7b70945184c1"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 95ab38d462185df6df78ba1102868640.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-C1
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - Fm6PrssGP6Xwe5gcxisZQHE2cpr6JtMADxnmOSncOoqhmHeGTT2rhQ==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":330068,"cast":[{"adult":false,"gender":2,"id":1269,"known_for_department":"Acting","name":"Kevin
+        Costner","original_name":"Kevin Costner","popularity":67.042,"profile_path":"/608blZipRDZkDpzp8VItB64qMaT.jpg","cast_id":1,"character":"Narrator","credit_id":"56c61a0ec3a3680d41003800","order":0},{"adult":false,"gender":2,"id":1219050,"known_for_department":"Acting","name":"Hank
+        Aaron","original_name":"Hank Aaron","popularity":2.071,"profile_path":"/nxwkA89oLA3N6SvvMUwUFGVCZY0.jpg","cast_id":2,"character":"Self
+        (archive footage)","credit_id":"56f5d18dc3a3686a5e000d07","order":1},{"adult":false,"gender":2,"id":1596331,"known_for_department":"Acting","name":"Nolan
+        Ryan","original_name":"Nolan Ryan","popularity":0.6,"profile_path":null,"cast_id":3,"character":"Self
+        (archive footage)","credit_id":"56f5d19e92514125d6000421","order":2},{"adult":false,"gender":2,"id":147445,"known_for_department":"Acting","name":"Derek
+        Jeter","original_name":"Derek Jeter","popularity":1.4,"profile_path":"/zPuiq4sz76ZfTcCUq2pJ7tcagJ3.jpg","cast_id":4,"character":"Self","credit_id":"56f5d1abc3a3686a59000c70","order":3},{"adult":false,"gender":0,"id":1653850,"known_for_department":"Acting","name":"Denard
+        Span","original_name":"Denard Span","popularity":0.6,"profile_path":null,"cast_id":9,"character":"Self","credit_id":"57906239c3a368671a006683","order":4},{"adult":false,"gender":0,"id":1653851,"known_for_department":"Acting","name":"Craig
+        Kimbrel","original_name":"Craig Kimbrel","popularity":0.6,"profile_path":null,"cast_id":10,"character":"Self
+        (archive footage)","credit_id":"579062489251410c06003939","order":5},{"adult":false,"gender":0,"id":1653852,"known_for_department":"Acting","name":"Justin
+        Verlander","original_name":"Justin Verlander","popularity":0.993,"profile_path":null,"cast_id":11,"character":"Self
+        (archive footage)","credit_id":"5790625dc3a3685b260081e5","order":6},{"adult":false,"gender":0,"id":4026202,"known_for_department":"Acting","name":"Bryce
+        Harper","original_name":"Bryce Harper","popularity":0.6,"profile_path":null,"cast_id":30,"character":"Self
+        (archive footage)","credit_id":"64466f66c8f3c404c94513ab","order":7},{"adult":false,"gender":2,"id":2955,"known_for_department":"Acting","name":"Chris
+        Cooper","original_name":"Chris Cooper","popularity":15.705,"profile_path":"/j0sQDzaDlnNAdaYhy6HRRAFi22.jpg","cast_id":13,"character":"Clifford
+        Blankenship (voice)","credit_id":"579062889251414b03001ef6","order":8},{"adult":false,"gender":2,"id":1315816,"known_for_department":"Acting","name":"George
+        Brett","original_name":"George Brett","popularity":1.38,"profile_path":null,"cast_id":14,"character":"Self
+        (archive footage)","credit_id":"579062a29251411cd8006200","order":9},{"adult":false,"gender":0,"id":1214284,"known_for_department":"Acting","name":"Joe
+        Morgan","original_name":"Joe Morgan","popularity":0.6,"profile_path":null,"cast_id":15,"character":"Self
+        (archive footage)","credit_id":"579062afc3a3684e95001cf4","order":10},{"adult":false,"gender":0,"id":1243289,"known_for_department":"Acting","name":"Johnny
+        Bench","original_name":"Johnny Bench","popularity":0.98,"profile_path":null,"cast_id":16,"character":"Self
+        (archive footage)","credit_id":"579062bbc3a3684e95001d00","order":11},{"adult":false,"gender":0,"id":1653854,"known_for_department":"Acting","name":"Tony
+        Gwynn","original_name":"Tony Gwynn","popularity":0.6,"profile_path":"/vHj7FONWGXQpToMY9p15ZImWoXc.jpg","cast_id":17,"character":"Self
+        (archive footage)","credit_id":"579062ca9251410c0600397e","order":12},{"adult":false,"gender":0,"id":590335,"known_for_department":"Acting","name":"Ernie
+        Banks","original_name":"Ernie Banks","popularity":0.6,"profile_path":null,"cast_id":18,"character":"Self
+        (archive footage)","credit_id":"579062d9c3a3684a8c0022f8","order":13},{"adult":false,"gender":0,"id":1653855,"known_for_department":"Acting","name":"Rich
+        Gossage","original_name":"Rich Gossage","popularity":0.6,"profile_path":null,"cast_id":19,"character":"Self
+        (archive footage)","credit_id":"5790630f9251411cd800622d","order":14},{"adult":false,"gender":0,"id":1573622,"known_for_department":"Acting","name":"Mike
+        Schmidt","original_name":"Mike Schmidt","popularity":0.6,"profile_path":null,"cast_id":20,"character":"Self
+        (archive footage)","credit_id":"5790631dc3a3684a130024b0","order":15},{"adult":false,"gender":0,"id":1653856,"known_for_department":"Acting","name":"Arnoldis
+        Chapman","original_name":"Arnoldis Chapman","popularity":0.6,"profile_path":null,"cast_id":21,"character":"Self
+        (archive footage)","credit_id":"5790632b9251414aef001f83","order":16},{"adult":false,"gender":0,"id":1249562,"known_for_department":"Acting","name":"Al
+        Kaline","original_name":"Al Kaline","popularity":0.6,"profile_path":null,"cast_id":22,"character":"Self
+        (archive footage)","credit_id":"57906377c3a3684a8c00233d","order":17},{"adult":false,"gender":0,"id":1653857,"known_for_department":"Acting","name":"David
+        Price","original_name":"David Price","popularity":0.6,"profile_path":null,"cast_id":23,"character":"Self
+        (archive footage)","credit_id":"579063bbc3a3684a13002502","order":18},{"adult":false,"gender":0,"id":1249462,"known_for_department":"Acting","name":"Bob
+        Gibson","original_name":"Bob Gibson","popularity":0.98,"profile_path":null,"cast_id":24,"character":"Self
+        (archive footage)","credit_id":"579063c79251411cd800627a","order":19}],"crew":[{"adult":false,"gender":2,"id":53178,"known_for_department":"Directing","name":"Michael
+        Tollin","original_name":"Michael Tollin","popularity":4.101,"profile_path":"/zZEUZh2Oh20wFBXaEfGvwqCBWmv.jpg","credit_id":"628e54d9ed2ac2758dfe1e73","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":54211,"known_for_department":"Production","name":"Thomas
+        Tull","original_name":"Thomas Tull","popularity":1.62,"profile_path":"/5UG4FK7rsmhzJDYxpU28acqfxtu.jpg","credit_id":"56f5d1c092514155f5000c01","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":92936,"known_for_department":"Directing","name":"Jonathan
+        Hock","original_name":"Jonathan Hock","popularity":1.444,"profile_path":"/1qzxg46cetSmRGqL6unAt9f20Ia.jpg","credit_id":"56f5d209925141560a000c11","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":92936,"known_for_department":"Directing","name":"Jonathan
+        Hock","original_name":"Jonathan Hock","popularity":1.444,"profile_path":"/1qzxg46cetSmRGqL6unAt9f20Ia.jpg","credit_id":"550099679251413da8001d06","department":"Directing","job":"Director"},{"adult":false,"gender":0,"id":1106729,"known_for_department":"Editing","name":"Steven
+        Pilgrim","original_name":"Steven Pilgrim","popularity":0.6,"profile_path":null,"credit_id":"6147d1d91689350064edc7ff","department":"Editing","job":"Editor"},{"adult":false,"gender":2,"id":1130319,"known_for_department":"Sound","name":"Tony
+        Morales","original_name":"Tony Morales","popularity":1.544,"profile_path":null,"credit_id":"6147d1cb168935008f0c975a","department":"Sound","job":"Original
+        Music Composer"},{"adult":false,"gender":0,"id":1596332,"known_for_department":"Production","name":"Philip
+        Aromando","original_name":"Philip Aromando","popularity":0.716,"profile_path":null,"credit_id":"56f5d1e5c3a3686a6b000c77","department":"Production","job":"Producer"},{"adult":false,"gender":0,"id":2166956,"known_for_department":"Editing","name":"Pete
+        Panagoulias","original_name":"Pete Panagoulias","popularity":0.6,"profile_path":null,"credit_id":"6147d1d2e55937006179a7a8","department":"Editing","job":"Editor"},{"adult":false,"gender":0,"id":2194380,"known_for_department":"Production","name":"David
+        Check","original_name":"David Check","popularity":0.6,"profile_path":null,"credit_id":"628e54c47d5db510a6558743","department":"Production","job":"Co-Executive
+        Producer"}]}'
+  recorded_at: Tue, 12 Dec 2023 23:02:45 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/330068/reviews
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjJkMDg0ZTBiMjJlNGNhZTZiYTUwNTA4YzU2MmUwNyIsInN1YiI6IjY1NjRkZWNlZDk1NTRiMDEzYWYyZjIwMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.F15rqbrDY3vz4g1F9BHHdPGdyOjkGfBpjuf4w5E-dSY
+      User-Agent:
+      - Faraday v2.7.12
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 138e048d065a91f26eabdfab789f742c
+      X-Memc-Age:
+      - '10471'
+      X-Memc-Expires:
+      - '18208'
+      Date:
+      - Tue, 12 Dec 2023 23:02:45 GMT
+      Cache-Control:
+      - public, max-age=2632
+      Etag:
+      - W/"3b796a67694707f2c12cacf3ce981616"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 543364398a9b5ee1ed0d763a4bb2c14a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-C1
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - lSr7ypADZzZf7uRxoW-FOY61G9sdNerN_MBJGD9yIO6x6Mj7DGRAkw==
+      Age:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":330068,"page":1,"results":[],"total_pages":0,"total_results":0}'
+  recorded_at: Tue, 12 Dec 2023 23:02:45 GMT
 recorded_with: VCR 6.2.0

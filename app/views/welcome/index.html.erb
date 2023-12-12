@@ -14,9 +14,11 @@
   </div>
 <% end %>
 <br>
-<div class="container">
-  <h3>Existing Users</h3>
-  <% @users.each do | user | %>
-    <div><%= link_to "#{user.email}", user_path(user) %></div>
-  <% end %>
-</div>
+<% if current_user %>
+  <div class="container">
+    <h3>Existing Users</h3>
+    <% @users.each do | user | %>
+      <div><%= user.email %></div>
+    <% end %>
+  </div>
+<% end %>
